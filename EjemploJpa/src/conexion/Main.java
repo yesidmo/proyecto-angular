@@ -6,6 +6,7 @@ public class Main {
 	
 public static void main(String[] args) {
 	System.out.println("conexion exitosa");
+	System.out.println("Se ha conectado");
 	try {
 		Class.forName("oracle.jdbc.driver.OracleDriver");
 		String url="jdbc:oracle:thin:@localhost:1521:xe";
